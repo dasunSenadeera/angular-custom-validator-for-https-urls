@@ -1,0 +1,48 @@
+
+Paste an url here and check...
+<hr>
+<br>
+<br>
+<input type="text"  [formControl]="websiteUrl">
+<br>
+{{websiteUrl.value}}
+<div
+*ngIf="websiteUrl.errors?.validUrl">
+  Oops, only urls served over https.
+</div>
+<br>
+<hr>
+<input type="text"  [formControl]="websiteUrl1">
+<br>
+{{websiteUrl1.value}}
+<div
+*ngIf="websiteUrl1.errors?.validUrl">
+  Oops, only urls served over https.
+</div>
+<br>
+<hr>
+<input type="text"  [formControl]="websiteUrl2">
+<br>
+{{websiteUrl2.value}}
+<div
+*ngIf="websiteUrl2.errors?.validUrl">
+  Oops, only urls served over https.
+</div>
+<br>
+<hr>
+<input type="text"  [formControl]="websiteUrl3">
+<br>
+{{websiteUrl3.value}}
+<div
+*ngIf="websiteUrl3.errors?.validUrl">
+  Oops, only urls served over https.
+</div>
+<br>
+<hr>
+<input type="text"  [formControl]="websiteUrl4">
+<br>
+{{websiteUrl4.value}}
+<div
+*ngIf="websiteUrl4.errors?.validUrl">
+  Oops, only urls served over https.
+</div>
